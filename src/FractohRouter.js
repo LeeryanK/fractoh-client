@@ -5,6 +5,8 @@ class FractohRouter {
     this.view = view;
     this.view.setRouter(this);
     
+    this.state = {};
+    
     this.location = [];
     this.flowTree = FractohFlowTree;
   }
