@@ -1,3 +1,4 @@
+import MenuFlowTree from 'MenuFlowTree.js';
 import FractohFlowTree from 'FractohFlowTree.js';
 
 class FractohRouter {
@@ -8,7 +9,8 @@ class FractohRouter {
     this.state = {};
     
     this.location = [];
-    this.flowTree = FractohFlowTree;
+    this.menuFlowTree = MenuFlowTree;
+    this.fractohFlowTree = FractohFlowTree;
   }
   
   getOptions() {
